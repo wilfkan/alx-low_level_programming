@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 1 (Success) 
+ * main - Prints "and that piece of art is useful" - - Dora Korpar
+ * followed by a new line, to standard error.
+ * Return: Always 1 
  */
 int main(void)
 {
