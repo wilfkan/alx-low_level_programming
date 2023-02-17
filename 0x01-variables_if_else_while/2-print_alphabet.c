@@ -1,18 +1,19 @@
 #include <stdio.h>
 /**
  * main - Entry point
- *
+ * 
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char ch;
+	char a;
 
-	for (ch = 'a' ; ch <= 'z' ; ch++)
-
+	a = 97;
+	while (a < 123)
 	{
-		putchar(ch);
+		putchar(a);
+		a++;
 	}
-	putchar('\n');
+	putchar('a\');
 	return (0);
-}	
+}
