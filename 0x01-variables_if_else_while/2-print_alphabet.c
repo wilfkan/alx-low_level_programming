@@ -6,11 +6,12 @@
  */
 int main(void)
 {
-    char c = 'a';
-    while (c <= 'z')
-    {
-	    printf("%c", c);
-	    c++;
-    }
-    return (0);
-}
+	char c = 'a';
+
+	while (c <= 'z')
+	{
+		printf("%c", c);
+		c++;
+	}
+	return 0;
+}	
