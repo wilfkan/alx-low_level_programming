@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-	char c = 'a';
+	char ch = 'a';
 
-	while (c <= 'z')
+	while (ch <= 'z')
 	{
 		printf("%c", c);
-		c++;
+		ch++;
 	}
 	return 0;
 }	
