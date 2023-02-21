@@ -4,7 +4,7 @@
  * main - prints alphabets in lower case
  *
  */
-void print_alphabet(void)
+void letters_lowercase(void)
 {
 	char letter;
 
