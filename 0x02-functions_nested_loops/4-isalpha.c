@@ -4,7 +4,7 @@
  *
  *@c: character
  *
- * Return: 1 if lowercase or uppercase, 0 if not alphabetic character 
+ *Return: 1 if lowercase or uppercase, 0 if not alphabetic character 
  */
 int _isalpha(int c)
 {
@@ -16,5 +16,5 @@ int _isalpha(int c)
 	{
 		return (0);
 	}
-	_putchar('\n');	
-}		
+	_putchar('\n');
+}
