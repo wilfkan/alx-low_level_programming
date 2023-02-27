@@ -1,13 +1,13 @@
 #include "main.h"
 /**
  * print_array - prints n elements of an array of integers
- *
+ * @a: string input
  * @n: number of elements in array
  * Return: no return
  */
 void print_array(int *a, int n)
 {
-	int i = 0;
+	int i;
 
 	for (i = 0; i < n; ++1)
 	{
