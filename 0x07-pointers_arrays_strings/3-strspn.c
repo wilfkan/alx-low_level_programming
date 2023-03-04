@@ -6,7 +6,7 @@
  * 
  * @accept: accepted chars
  *
- * Return: the number of bytes in the initial segment
+ * Return: the number of bytes in *s
  */
 unsigned int _strspn(char *s, char *accept)
 {
