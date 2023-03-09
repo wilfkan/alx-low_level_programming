@@ -3,7 +3,6 @@
  * get_prime - checks a number if its a prime number or not
  *
  * @p: number
- * 
  * @v: variable
  *
  * Return: 1 if p is prime and o if otherwise
