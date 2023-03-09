@@ -9,7 +9,7 @@
  */
 int sqrt_check(int g, int c)
 {
-	if (g * g ==c)
+	if (g * g == c)
 		return (g);
 	if (g * g > c)
 		return (-1);
@@ -21,12 +21,12 @@ int sqrt_check(int g, int c)
  *
  * @n: number to sqrt
  *
- * Return: if n does not have a natural square root, the function should return -1
+ * Return: if n does not have natural square root, return -1
  */
 int _sqrt_recursion(int n)
 {
         if (n == 0)
 	        return (0);
 
-	 return (sqrt_check(1, n));
+	return (sqrt_check(1, n));
 }
