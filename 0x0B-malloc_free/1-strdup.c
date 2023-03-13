@@ -4,7 +4,7 @@
 /**
  * _strdup - returns a pointer to a newly allocated space in memory
  * @str: string input
- * Return: a pointer to the duplicated string, if insufficent memory return null
+ * Return:a pointer to the duplicated string, if insufficent memory return null
  */
 char *_strdup(char *str)
 {
@@ -14,7 +14,8 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	for (i = 0; str[i] != '\0'; i++);
+	for (i = 0; str[i] != '\0'; i++)
+		;
 
 	strout = (char *)malloc(sizeof(char) * (i + 1));
 
