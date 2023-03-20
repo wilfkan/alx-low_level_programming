@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "dog.h"
 /**
- * free_dog - check the code
+ * free_dog - check the code .
  * @d: decimal
- * Return: Always 0
+ * Return: Always 0.
  */
 void free_dog(dog_t *d)
 {
