@@ -8,7 +8,7 @@
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
-	listint_t *c;
+	listint_t *current;
 	listint_t *new;
 
 	if (head == NULL)
@@ -27,20 +27,20 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		return (new);
 	}
 
-	c = *head;
+	current = *head;
 
 	while (idx != 1)
 	{
-		c = c->next;
+		current = current->next;
 		--idx;
-		if (c == NULL)
+		if (current == NULL)
 		{
 			free(new);
 			return (NULL);
 		}
 	}
-	new->next = c->next;
-	c->next = new;
+	new->next = current->next;
+	current->next = new;
 
 	return (new);
 }
